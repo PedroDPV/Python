@@ -8,6 +8,7 @@ Original file is located at
 
 # Métodos Específicos de Lista em Python
 
+APPEND:
 - list.append(valor)<br>
 Adiciona um valor ao final de uma lista
 
@@ -17,6 +18,7 @@ Uso:
 Resultado:
     vendas = [150, 320, 110]
 
+EXTEND:
 - list.extend(lista2)<br>
 Adiciona todos os valores da lista2 na lista original
 
@@ -27,6 +29,7 @@ Uso:
 Resultado:
     vendas = [150, 320, 110, 450, 390, 370, 440, 470, 900, 1000, 1100, 1050]
 
+INSERT:
 - list.insert(posicao, valor)<br>
 Adiciona um valor em uma posição específica em uma lista. Não é recomendado usar a não ser que seja realmente necessário inserir em uma posição específica, porque o método append é mais eficiente.
 
@@ -38,6 +41,7 @@ Resultado:
 Obs:
     Compare com o caso do list.append para ver a diferença
 
+REMOVE:
 - list.remove(valor)<br>
 Remove o valor da lista (apenas a 1ª ocorrência, então caso haja 2 vezes o valor na lista, apenas a 1ª será removida). Além disso, dá um erro caso valor não exista dentro da lista.
 
@@ -47,6 +51,7 @@ Uso:
 Resultado:
     vendedores = ['João', 'Julia', 'Ana', 'Paulo', 'Marcus']
 
+POP:
 - list.pop(posicao)<br>
 Remove o item que está na posicao (índice) passado. Além disso, esse item é dado como resultado do pop, portanto pode ser armazenado em uma variável ou usado para outra coisa na mesma linha de código.
 
@@ -56,6 +61,7 @@ Uso:<br>
 Resultado:<br>
     vendedores = ['João', 'Julia', 'Ana', 'Paulo', 'Marcus']
 
+CLEAR:
 - list.clear()<br>
 Remove todos os itens de uma lista
 
@@ -65,6 +71,7 @@ Uso:
 Resultado:
     vendedores = []
 
+INDEX:
 - list.index(valor)<br>
 Retorna a posição do valor dentro da lista (em qual índice está o valor). Dá erro caso não haja o valor dentro da lista.
 
@@ -74,6 +81,7 @@ Uso:
 Resultado:
     posicao_Joao = 0
 
+COUNT:
 - list.count(valor)<br>
 Retorna a quantidade de vezes que o valor aparece na lista
 
@@ -83,6 +91,7 @@ Uso:
 Resultado:
     qtde_Joao = 2
 
+SORT:
 - list.sort(reverse=False)<br>
 Ordena os valores da lista em ordem crescente, ou alfabética, (reverse=False) ou decrescente (reverse=True).
 
@@ -92,6 +101,8 @@ Uso:
 Resultado:
     vendas = [480, 300, 190, 150]
 
+
+REVERSE:
 - list.reverse()<br>
 Inverte a ordem dos elementos de uma lista.
 
@@ -101,6 +112,7 @@ Uso:
 Resultado:
     vendas = [480, 190, 300, 150]
 
+COPY:
 - list.copy()<br>
 Cria uma cópia da lista original. Outra opção é fazer lista2 = lista1[:]
 
