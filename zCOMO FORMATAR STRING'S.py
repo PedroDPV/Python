@@ -17,11 +17,11 @@ Mas a dica é: use essa lista para consulta e busque entender como os métodos f
 - Sinal de Mais (+) -> Serve para concatenar strings
 
 Uso: 
-        usuario = 'lira'
+        usuario = 'pedro'
         servidor = 'gmail.com'
         print(usuario + '@' + servidor)
     Resultado: 
-        'lira@gmail.com'
+        'pedro@gmail.com'
 
 - str() -> transforma o valor em string
 
@@ -35,8 +35,8 @@ Uso:
 
 Uso: 
         servidor = 'gmail.com'
-        print(servidor in 'lira@gmail.com')
-        print(servidor not in lira@gmail.com')
+        print(servidor in 'pedro@gmail.com')
+        print(servidor not in pedro@gmail.com')
     Resultado: 
         True
         False
@@ -54,23 +54,23 @@ Uso:
 - capitalize() -> Coloca a 1ª letra Maiúscula
 
 Uso: 
-        texto = 'lira'
+        texto = 'pedro'
         print(texto.capitalize())
     Resultado: 
-        'Lira'
+        'Pedro'
 
 - casefold() -> Transforma todas as letras em minúsculas (existe lower() mas o casefold é melhor normalmente)
 
 Uso: 
-        texto = 'Lira'
+        texto = 'Pedro'
         print(texto.casefold())
     Resultado: 
-        'lira'
+        'pedro'
 
 - count()	-> Quantidade de vezes que um valor aparece na string
 
 Uso:
-        texto = 'lira@yahoo.com.br'
+        texto = 'pedro@yahoo.com.br'
         print(texto.count('.'))
     Resultado:
         2
@@ -78,7 +78,7 @@ Uso:
 - endswith() -> Verifica se o texto termina com um valor específico e dá como resposta True ou False
 
 Uso:
-        texto = 'lira@gmail.com'
+        texto = 'pedro@gmail.com'
         print(texto.endswith('gmail.com'))
     Resultado:
         True
@@ -86,7 +86,7 @@ Uso:
 - find() -> Procura um texto dentro de outro texto e dá como resposta a posição do texto encontrado
 
 Uso:
-        texto = 'lira@gmail.com'
+        texto = 'pedro@gmail.com'
         print(texto.find('@'))
     Resultado:
         4
@@ -141,10 +141,10 @@ Uso:
 - split()	-> Separa uma string de acordo com um delimitador em vários textos diferentes.
 
 Uso:
-        texto = 'lira@gmail.com'
+        texto = 'pedro@gmail.com'
         print(texto.split('@'))
     Resultado:
-        ['lira', 'gmail.com']
+        ['pedro', 'gmail.com']
 
 - splitlines() -> separa um texto em vários textos de acordo com os "enters" do texto
 
@@ -176,10 +176,10 @@ Uso:
 - title() -> Coloca a 1ª letra de cada palavra em maiúscula
 
 Uso:
-        texto = 'joão paulo lira'
+        texto = 'pedro vasconcelos'
         print(texto.title())
     Resultado:
-        'João Paulo Lira'
+        'Pedro Vasconcelos'
 
 - upper()	-> Coloca o texto todo em letra maiúscula
 
